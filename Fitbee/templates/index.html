@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+   
+    <style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+.pixelify-sans-dex {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold  ;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+                                                             
+}
+#main{
+    position : relative;
+    overflow :hidden;
+}
+#page{
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url(https://i.pinimg.com/originals/e0/0d/b6/e00db644c81555a495ea27c8225727fb.gif);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position-x: center;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(237, 190, 35);
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(220, 220, 92);
+}
+#page3{
+   height: 100vh;
+   width: 100vw;
+   background: rgb(217, 131, 19); 
+}
+/* Style for the navbar */
+.navbar {
+  width: 100vw; /* Full width */
+  background-color: #fdfcf9; /* Dark background color */
+  overflow: hidden; /* Ensures the content is not overflowing */
+  position: fixed; /* Fixed position */
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Ensures navbar is above other content */
+}
+
+/* Navbar links style */
+.navbar a {
+  float: left; /* Align links to the left side */
+  display: block; /* Display links as block elements */
+  color: rgb(0, 0, 0); /* Text color */
+  text-align: center; /* Center text inside links */
+  padding: 14px 16px; /* Padding around text */
+  text-decoration: none; /* No underline on links */
+}
+/* Style for the logo */
+.navbar img {
+float: left; /* Align the logo to the left */
+/* Set the height of the logo */
+margin-right: 10px; /* Margin between logo and links */
+padding: 5px 16px; /* Padding around the logo */
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd; /* Light grey background on hover */
+  color: black; /* Black text color on hover */
+}
+
+ /* Style for the login button */
+ .login-button {
+    float: right; /* Align the login button to the right */
+    padding: 14px 16px; /* Padding around the button */
+    background-color: #007BFF; /* Blue background color */
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+  }
+
+  /* Hover effect for the login button */
+  .login-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+/* Main content style */
+.main {
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
+  padding: 16px; /* Padding around content */
+}
+
+#getstart{
+    position: relative;
+    float: none;
+    padding: 12%;
+    margin: 13%;
+}
+
+#login{
+position: relative;
+z-index: 10000;
+display: flex;
+align-content: center;
+}
+    </style>
+</head>
+<body class="pixelify-sans-dex">
+    <div id="main" >
+        <div id="page" >
+            <div class="navbar">
+               <a href="#page"> <img src="logo.png" alt="Logo"></a>
+                <a href="#page1" >Services</a>
+                <a href="#page2">About</a>
+                <a href="#page3">Contact</a>
+                <a href="./login" class="login-button">Register</a>
+              </div>
+
+        </div>
+        <div id="page1"  >
+            <div class="getstart"> 
+            <a href="./service.html">     <button id="login" >Click here</button></div> </a></div>
+        <div id="page2"  ></div>
+        <div id="page3"  ></div>
+        <div><h1>Check</h1></div>
+    </div>
+</body>
+</html>
