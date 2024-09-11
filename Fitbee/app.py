@@ -9,7 +9,7 @@ from catboost import CatBoostClassifier
 app = Flask(__name__)
 
 # Preload the dataset (you can adjust the file path)
-file_path = '/Users/diwakarchauhan/Downloads/Final_Exercise_Recommendations_Dataset new.csv'
+file_path = './Upload/Final_Exercise_Recommendations_Dataset new.csv'
 try:
     data = pd.read_csv(file_path)
     print("File loaded successfully!")
